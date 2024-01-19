@@ -8,8 +8,7 @@ const max = 150;
 const repeats = 3;
 
 function brainCalc(name) {
-    const random1 = randomNum(0, max);
-    const random2 = randomNum(0, max);
+    const [random1, random2] = [randomNum(0, max), randomNum(0, max)];
     const operator = randomNum(0, operators.length);
     console.log(`Question: ${random1} ${operators[operator]} ${random2}`);
     let correctAnswer = 0;
@@ -29,8 +28,7 @@ function brainCalc(name) {
     const answer = parseInt(readlineSync.question('Your answer: '), 10);
     if (correctAnswer === answer) {
         console.log('Correct!');
-    }
-    else {
+    } else {
         console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer}`);
         console.log(`Let's try again, ${name}`);
         return 0;
