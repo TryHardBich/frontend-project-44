@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { Welcome, randomNum } from '../src/cli.js'
 import readlineSync from 'readline-sync'
 
@@ -6,11 +7,8 @@ const win = 3
 const randMax = 100;
 
 function brainEven(name) {
+    let [count, num, answer, correctAnswer] = [0, 0, '', ''];
     console.log('Answer "yes" if the number is even, otherwise answer "no".');
-    let count = 0;
-    let num = 0;
-    let answer = '';
-    let correctAnswer = '';
     while (count < win) {
         num = randomNum(0, randMax);
         console.log(`Question: ${num}`);
@@ -18,7 +16,7 @@ function brainEven(name) {
         if (num % 2 === 0) {
             correctAnswer = 'yes';
         }
-        else {
+        else {             
             correctAnswer = 'no';
         }
         if (correctAnswer === answer) {
