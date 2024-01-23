@@ -7,7 +7,7 @@ export function gameStart(name, gameName, repeats) {
   console.log(`Congratulations, ${name}!`);
 }
 export function duplicates(correctAnswer, answer, name) {
-  if (correctAnswer === parseInt(answer)) {
+  if (correctAnswer === (answer)) {
     console.log('Correct!');
   } else {
     console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer}`);

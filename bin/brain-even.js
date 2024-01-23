@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import { Welcome, randomNum } from '../src/cli.js';
-import { gameStart } from '../src/index.js';
+import { duplicates, gameStart } from '../src/index.js';
 
 // config
 const win = 3;
@@ -17,14 +17,10 @@ function brainEven(name) {
   } else {
     correctAnswer = 'no';
   }
-  if (correctAnswer === answer) {
-    console.log('Correct!');
-  } else {
-    console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer}`);
-    console.log(`Let's try again, ${name}`);
+  duplicates(correctAnswer, answer, name);
+  if (correctAnswer !== answer) {
     return 0;
   }
-  console.log(`Congratulations, ${name}`);
 }
 
 const gameName = brainEven;

@@ -25,7 +25,7 @@ function brainCalc(name) {
       return 0;
   }
   const answer = parseInt(readlineSync.question('Your answer: '), 10);
-  duplicates(correctAnswer, answer, name);
+  duplicates(correctAnswer, parseInt(answer), name);
   if (correctAnswer !== answer) {
     return 0;
   }
