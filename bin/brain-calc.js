@@ -25,10 +25,11 @@ function brainCalc(name) {
       return 0;
   }
   const answer = parseInt(readlineSync.question('Your answer: '), 10);
-  duplicates(correctAnswer, parseInt(answer), name);
+  duplicates(correctAnswer, parseInt(answer, 10), name);
   if (correctAnswer !== answer) {
     return 0;
   }
+  return 0;
 }
 const gameName = brainCalc;
 

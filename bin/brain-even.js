@@ -21,6 +21,7 @@ function brainEven(name) {
   if (correctAnswer !== answer) {
     return 0;
   }
+  return 0;
 }
 
 const gameName = brainEven;

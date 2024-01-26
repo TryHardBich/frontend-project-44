@@ -5,6 +5,7 @@ export function gameStart(name, gameName, repeats) {
     count += 1;
   }
   console.log(`Congratulations, ${name}!`);
+  return 0;
 }
 export function duplicates(correctAnswer, answer, name) {
   if (correctAnswer === (answer)) {
@@ -14,6 +15,7 @@ export function duplicates(correctAnswer, answer, name) {
     console.log(`Let's try again, ${name}!`);
     return 0;
   }
+  return 0;
 }
 export function lose(answer, correctAnswer, name) {
   duplicates(correctAnswer, answer, name);
