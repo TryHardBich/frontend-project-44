@@ -16,5 +16,5 @@ export function duplicates(correctAnswer, answer, name) {
   }
 }
 export function lose(answer, correctAnswer, name) {
-  duplicates(correctAnswer, answer, name)
+  duplicates(correctAnswer, answer, name);
 }
