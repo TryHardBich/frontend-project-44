@@ -16,7 +16,5 @@ export function duplicates(correctAnswer, answer, name) {
   }
 }
 export function lose(answer, correctAnswer, name) {
-  console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer}`);
-  console.log(`Let's try again, ${name}!`);
-  return 0;
+  duplicates(correctAnswer, answer, name)
 }
