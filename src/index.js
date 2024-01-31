@@ -3,7 +3,7 @@ export function gameStart(name, gameName, repeats) {
   while (count < repeats) {
     if (gameName(name) === 0) return 0;
     count += 1;
-  }
+    }
   console.log(`Congratulations, ${name}!`);
   return 0;
 }

@@ -35,7 +35,7 @@ function brainProgression(name) {
   if (correctAnswer !== answer) {
     return 0;
   }
-  return 0;
+  return 1;
 }
 const name = Welcome();
 console.log('What number is missing in the progression?');
