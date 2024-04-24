@@ -5,19 +5,16 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/0c3e6ec3684b60a2df75/maintainability)](https://codeclimate.com/github/TryHardBich/frontend-project-44/maintainability)
 
 ### Brain-Calc:
-[![asciicast](https://asciinema.org/a/bkhCkkGFyMVMYul9d3xFWdgkn.svg)](https://asciinema.org/a/bkhCkkGFyMVMYul9d3xFWdgkn)
+[![asciicast](https://asciinema.org/a/3gkVlWzwIP13ixcDx1r3cX9ji.svg)](https://asciinema.org/a/3gkVlWzwIP13ixcDx1r3cX9ji)
 
 ### Brain-Even:
-[![asciicast](https://asciinema.org/a/FnK19HZULYarkBwFgxk7EW7oI.svg)](https://asciinema.org/a/FnK19HZULYarkBwFgxk7EW7oI)
-
-### Brain-Games:
-[![asciicast](https://asciinema.org/a/9DP7Jhk0DBV2anC2xa39vbYnD.svg)](https://asciinema.org/a/9DP7Jhk0DBV2anC2xa39vbYnD)
+[![asciicast](https://asciinema.org/a/7i4i4rLJS7J95ygs2kojElniX.svg)](https://asciinema.org/a/7i4i4rLJS7J95ygs2kojElniX)
 
 ### Brain-GCD:
-[![asciicast](https://asciinema.org/a/iJXp84vASx5D1Izg8X4sNDS93.svg)](https://asciinema.org/a/iJXp84vASx5D1Izg8X4sNDS93)
+[![asciicast](https://asciinema.org/a/Ciefj9EYtbJpyeXajVcP7pu9D.svg)](https://asciinema.org/a/Ciefj9EYtbJpyeXajVcP7pu9D)
 
 ### Brain-Prime:
-[![asciicast](https://asciinema.org/a/DVKAEOoVZJ5RLDseK4wEAi851.svg)](https://asciinema.org/a/DVKAEOoVZJ5RLDseK4wEAi851)
+[![asciicast](https://asciinema.org/a/hFgajk8lB8AavOJVJceXcS1nG.svg)](https://asciinema.org/a/hFgajk8lB8AavOJVJceXcS1nG)
 
 ### Brain-Progression:
-[![asciicast](https://asciinema.org/a/Xdga79CFcn6FOsYj4M7ma4h1y.svg)](https://asciinema.org/a/Xdga79CFcn6FOsYj4M7ma4h1y)
+[![asciicast](https://asciinema.org/a/jiwYwKWddczi0don89ZX1oDOu.svg)](https://asciinema.org/a/jiwYwKWddczi0don89ZX1oDOu)
