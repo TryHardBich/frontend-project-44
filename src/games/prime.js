@@ -7,16 +7,16 @@ export const repeats = 3;
 export const str = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const prime = (n) => {
-    let isPrime = true;
-    let i = 2;
-    while (i <= Math.sqrt(n) && isPrime === true) {
-      if (n % i === 0) {
-        isPrime = false;
-      }
-      i += 1;
+  if (n <= 1) {
+    return false;
+  }
+  for (let i = 2; i <= Math.sqrt(n); i += 1) {
+    if (n % i === 0) {
+      return false;
     }
-    return isPrime ? 'yes' : 'no';
-  };
+  }
+  return true;
+};
 
 // eslint-disable-next-line consistent-return
 export const brainPrime = (name) => {
@@ -28,4 +28,5 @@ export const brainPrime = (name) => {
   if (correctAnswer !== answer) {
     return 0;
   }
-}
+  return 1;
+};

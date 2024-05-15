@@ -3,7 +3,6 @@ import { randomNum } from '../cli.js';
 import { duplicates } from '../index.js';
 
 // config
-const win = 3;
 const randMax = 100;
 export const str = 'Answer "yes" if the number is even, otherwise answer "no".';
 export const repeats = 3;
